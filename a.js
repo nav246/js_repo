@@ -1,8 +1,7 @@
-var person = {
-    firstname:"John",
-    lastname:"Doe",
-    age:50,
-    eyecolor:"blue"
-};
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}
+
+var x = person;
+x.age = 10;
+
 document.getElementById("demo").innerHTML =
-person.firstname + " is " + person.age + " years old.";
+person.firstName + " is " + person.age + " years old.";
